@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+nav a:hover{
+    border-bottom: 2px solid
+     #003666;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+.icon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#anasayfa{
+    height: 600px;
+    background-image: url("../img/r2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+#icerik{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+}
