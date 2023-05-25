@@ -83,7 +83,7 @@ h3{
     text-shadow: 0px 1px 1px black;
 }
 
-#container{
+.container{
     width: 1200px;
     height: auto;
     margin: auto;
@@ -145,4 +145,31 @@ span{
     line-height: 1.8;
     margin-top: 30px;
     font-weight: 100;
+}
+
+#egitimler{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 800px;
+}
+
+.card{
+    width: 320px;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+.card:hover{
+    border: 2px solid #003666;
+}
+
+.baslikcard{
+    font-size: 15px;
+    color: #003666;
+}
+
+.cardp{
+    color:#888;
 }
