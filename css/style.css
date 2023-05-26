@@ -173,3 +173,61 @@ span{
 .cardp{
     color:#888;
 }
+
+#ekip{
+    background-color: #3675a5;
+    padding: 50px;
+    height: 800px;
+    text-align: center;
+    
+}
+
+#ekipH3{
+    color: white;
+}
+
+.oval{
+    border-radius: 50px;
+}
+
+.ekipisim{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.ekipp{
+    color: #313131;
+    font-size: 17px;
+}
+
+.social{
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    width: 30px;
+    border-radius: 12px;
+    margin: 5px 10px;
+}
+
+.social:hover{
+    background-color: #313131;
+}
+
+.sutun{
+    width: 350px;
+    float: left;
+    padding: 20px;
+}
+
+.sutunsag{
+    width: 350px;
+    float: left;
+    padding: 50px;
+}
+
+.sutunsol{
+    width: 350px;
+    float: left;
+    padding: 50px;
+}
