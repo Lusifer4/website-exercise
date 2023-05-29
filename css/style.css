@@ -2,51 +2,50 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
 }
 
-#menu{
+#menu {
     height: 80px;
     padding: 0 20px;
 }
 
-#logo{
+#logo {
     font-size: 30px;
     line-height: 80px;
     color: #003666;
     float: left;
 }
 
-nav{
+nav {
     float: right;
     line-height: 80px;
 }
 
-nav a:link{
+nav a:link {
     text-decoration: none;
     margin-right: 25px;
     color: #003666;
 }
 
-nav a:hover{
-    border-bottom: 2px solid
-     #003666;
+nav a:hover {
+    border-bottom: 2px solid #003666;
 }
 
-nav a:visited{
+nav a:visited {
     text-decoration: none;
     margin-right: 25px;
     color: #003666;
 }
 
-.icon{
+.icon {
     margin-right: 7px;
     font-size: 16px;
 }
 
-#anasayfa{
+#anasayfa {
     height: 600px;
     background-image: url("../img/r2.jpg");
     background-size: cover;
@@ -54,13 +53,13 @@ nav a:visited{
     background-attachment: fixed;
 }
 
-#black{
+#black {
     height: 600px;
     background-color: black;
     opacity: 0.4;
 }
 
-#icerik{
+#icerik {
     position: absolute;
     top: 40%;
     left: 40%;
@@ -69,7 +68,7 @@ nav a:visited{
     font-size: 15px;
 }
 
-#hakkimizda{
+#hakkimizda {
     background-color: #f8f9fa;
     padding: 50px;
     text-align: center;
@@ -77,19 +76,19 @@ nav a:visited{
     font-weight: 600;
 }
 
-h3{
+h3 {
     font-size: 55px;
     color: #003666;
-    text-shadow: 0px 1px 1px black;
+    text-shadow: 0 1px 1px black;
 }
 
-.container{
+.container {
     width: 1200px;
     height: auto;
     margin: auto;
 }
 
-#sol{
+#sol {
     float: left;
     border-right: 3px solid #445c6e;
     font-size: 30px;
@@ -97,19 +96,20 @@ h3{
     color: #445c6e;
 }
 
-#h5sol{
+#h5sol {
     line-height: 1.6;
     font-size: 25px;
     font-weight: 600;
 }
 
-#h5sol,#sag{
+#h5sol,
+#sag {
     margin: 0;
     padding: 0;
     margin-top: 20px;
 }
 
-span{
+span {
     font-size: 50px;
     margin-right: 7px;
     line-height: 42px;
@@ -118,7 +118,7 @@ span{
     float: left;
 }
 
-#sag{
+#sag {
     float: right;
     width: 700px;
     color: #999999;
@@ -129,16 +129,16 @@ span{
     font-weight: 100;
 }
 
-.img-fluid{
+.img-fluid {
     max-width: 100%;
     height: auto;
 }
 
-.mt100{
+.mt100 {
     margin-top: 100px;
 }
 
-#pson{
+#pson {
     color: #999;
     letter-spacing: 1px;
     font-size: 15px;
@@ -147,61 +147,61 @@ span{
     font-weight: 100;
 }
 
-#egitimler{
+#egitimler {
     background-color: #fff;
     padding: 50px;
     text-align: center;
     height: 800px;
 }
 
-.card{
+.card {
     width: 320px;
     height: 350px;
     border: 1px solid #ddd;
     padding: 0;
     display: inline-block;
 }
-.card:hover{
+.card:hover {
     border: 2px solid #003666;
 }
 
-.baslikcard{
+.baslikcard {
     font-size: 15px;
     color: #003666;
 }
 
-.cardp{
-    color:#888;
+.cardp {
+    color: #888;
 }
 
-#ekip{
+#ekip {
     background-color: #3675a5;
     padding: 50px;
     height: 800px;
     text-align: center;
-    
+
 }
 
-#ekipH3{
+#ekipH3 {
     color: white;
 }
 
-.oval{
+.oval {
     border-radius: 50px;
 }
 
-.ekipisim{
+.ekipisim {
     color: white;
     font-size: 25px;
     margin-bottom: 12px;
 }
 
-.ekipp{
+.ekipp {
     color: #313131;
     font-size: 17px;
 }
 
-.social{
+.social {
     color: white;
     border: 1px solid white;
     padding: 5px;
@@ -210,41 +210,41 @@ span{
     margin: 5px 10px;
 }
 
-.social:hover{
+.social:hover {
     background-color: #313131;
 }
 
-.sutun{
+.sutun {
     width: 350px;
     float: left;
     padding: 20px;
 }
 
-.sutunsag{
+.sutunsag {
     width: 350px;
     float: left;
     padding: 50px;
 }
 
-.sutunsol{
+.sutunsol {
     width: 350px;
     float: left;
     padding: 50px;
 }
 
-#iletisim{
-    background: url(../img/iletisim.jpg);
+#iletisim {
+    background: url("../img/iletisim.jpg");
     background-size: cover;
     padding: 50px;
     height: auto;
     text-align: center;
 }
 
-#h3iletisim{
+#h3iletisim {
     color: white;
 }
 
-#iletisimopak{
+#iletisimopak {
     background-color: rgba(255,255,255, 0.2);
     padding: 30px 20px;
     border-radius: 15px;
@@ -253,25 +253,25 @@ span{
     width: 1100px;
 }
 
-#formgroup{
+#formgroup {
     width: 600px;
     float: left;
     height: 500px;
     text-align: left;
 }
 
-#solform{
+#solform {
     width: 50%;
     float: left;
     padding-right: 5px;
 }
-#sagform{
+#sagform {
     width: 50%;
     float: right;
     padding-left: 10px;
 }
 
-.form-control{
+.form-control {
     width: 100%;
     padding: 15px;
     font-size: 15px;
@@ -283,11 +283,11 @@ span{
     border: 1px solid #ced4da;
 }
 
-textarea{
+textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     cursor: pointer;
     background-color: #445c6e;
     font-size: 18px;
@@ -300,7 +300,7 @@ input[type="submit"]{
     margin-top: 10px;
 }
 
-#adres{
+#adres {
     width: 450px;
     float: right;
     padding: 30px;
@@ -308,29 +308,29 @@ input[type="submit"]{
     text-align: left;
 }
 
-#adresbaslik{
+#adresbaslik {
     font-size: 30px;
     color: white;
 }
 
-.adresp{
+.adresp {
     color: #ddd;
     font-size: 15px;
     letter-spacing: 1.5px;
 }
 
-#copyright{
+#copyright {
     color: white;
     font-size: 20px;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
 
-#up{
+#up {
     color: white;
     border: 1px solid white;
     border-radius: 100%;
     font-size: 15px;
-    padding: 12px 12px;
+    padding: 12px;
     margin-top: 20px;
 }
